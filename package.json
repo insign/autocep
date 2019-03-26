@@ -1,0 +1,13 @@
+{
+  "name": "AutoCEP",
+  "version": "0.0.1",
+  "description": "Preenche e consulta automaticamente o valor do frete no CEP predefinido para as principais lojas do Brasil.",
+  "scripts": {
+    "dev": "webextension-toolbox dev",
+    "build": "webextension-toolbox build"
+  },
+  "devDependencies": {
+    "webextension-toolbox": "latest"
+  },
+  "dependencies": {}
+}

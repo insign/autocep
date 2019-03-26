@@ -1,0 +1,85 @@
+.btn {
+   position:         relative;
+
+   display:          block;
+   margin:           30px auto;
+   padding:          0;
+
+   overflow:         hidden;
+
+   border-width:     0;
+   outline:          none;
+   border-radius:    2px;
+   box-shadow:       0 1px 4px rgba(0, 0, 0, .6);
+
+   background-color: #00B0FF;
+   color:            #ECF0F1;
+
+   transition:       background-color .3s;
+}
+
+.btn:hover, .btn:focus {
+   background-color: #0078BB;
+}
+
+.btn > * {
+   position: relative;
+}
+
+.btn span {
+   display: block;
+   padding: .5rem 1rem;
+}
+
+.btn:before {
+   content:           "";
+
+   position:          absolute;
+   top:               50%;
+   left:              50%;
+
+   display:           block;
+   width:             0;
+   padding-top:       0;
+
+   border-radius:     100%;
+
+   background-color:  rgba(236, 240, 241, .3);
+
+   -webkit-transform: translate(-50%, -50%);
+   -moz-transform:    translate(-50%, -50%);
+   -ms-transform:     translate(-50%, -50%);
+   -o-transform:      translate(-50%, -50%);
+   transform:         translate(-50%, -50%);
+}
+
+.btn:active:before {
+   width:       120%;
+   padding-top: 120%;
+
+   transition:  width .2s ease-out, padding-top .2s ease-out;
+}
+
+.btn.orange {
+   background-color: #E67E22;
+}
+
+.btn.orange:hover, .btn.orange:focus {
+   background-color: #D35400;
+}
+
+.btn.red {
+   background-color: #E74C3C;
+}
+
+.btn.red:hover, .btn.red:focus {
+   background-color: #C0392B;
+}
+
+.btn.green {
+   background-color: #2ECC71;
+}
+
+.btn.green:hover, .btn.green:focus {
+   background-color: #27AE60;
+}

@@ -1,10 +1,11 @@
 {
   "name"            : "__MSG_appName__",
+  "options_page"    : "pages/popup.html",
   "short_name"      : "__MSG_appShortName__",
   "description"     : "__MSG_appDescription__",
   "version"         : "0.0.0",
   "manifest_version": 2,
-  "default_locale"  : "en",
+  "default_locale"  : "pt",
   "icons"           : {
     "16" : "images/icon-16.png",
     "128": "images/icon-128.png"
@@ -38,5 +39,13 @@
       "run_at"    : "document_end",
       "all_frames": false
     }
-  ]
+  ],
+  "permissions"     : [
+    "storage"
+  ],
+  "applications"    : {
+    "gecko": {
+      "id": "webexts@helio.me"
+    }
+  }
 }

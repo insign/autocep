@@ -3,11 +3,13 @@
   "version": "0.0.1",
   "description": "Preenche e consulta automaticamente o valor do frete no CEP predefinido para as principais lojas do Brasil.",
   "scripts": {
-    "dev": "webextension-toolbox dev",
-    "build": "webextension-toolbox build"
+    "dev": "./dev.sh",
+    "build": "./build.sh"
   },
   "devDependencies": {
     "webextension-toolbox": "latest"
   },
-  "dependencies": {}
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2"
+  }
 }

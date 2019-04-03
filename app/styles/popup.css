@@ -1,2 +1,8 @@
-@import "btn.css";
-@import "input.css";
+/*@import "btn.css";*/
+/*@import "input.css";*/
+/*@import "select.css";*/
+
+body {
+   width: 300px;
+   padding: 1rem;
+}
